@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 const Section1: React.FC = () => {
     return (
-      <div className='flex absolute top-80px sm: w-full h-full'>
+      <div className='flex absolute top-80px sm:top-20px sm: w-full h-full overflow-hidden'>
         <div className="absolute block animate-backAnime5 bg-layer-5 bg-center bg-no-repeat bg-transparent w-marge h-full left-[-45px] "></div>
         <div className="absolute block animate-backAnime4 bg-layer-4 bg-top bg-no-repeat bg-transparent w-marge h-full left-[-15px] "></div>
         <div className="absolute block animate-backAnime3 bg-layer-3 bg-bottom bg-no-repeat bg-transparent w-marge h-full left-[-30px]"></div>

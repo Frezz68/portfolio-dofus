@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Navbar: React.FC = () => {
     return (
-        <nav className="bg-black border-t-4 border-[#96a702] p-1 md:p-3 lg:p-4 ">
+        <nav className="bg-black border-t-4 border-[#96a702] p-1 md:p-3 lg:p-4 w-screen ">
             <div className="container mx-auto flex justify-center items-center text-base md:text-lg lg:text-2xl">
                 <div className="font-bold text-right pr-4 sm:pr-8">
                     <div className="flex text-white">
